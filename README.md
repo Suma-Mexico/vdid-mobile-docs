@@ -1,2 +1,5 @@
 # vdid-android-docs
-Respositorio que aloja los ejemplos de integración y documentación de las librerias de Android
+
+Documentación de las librerías de Android:
+
+- [Librería VDID_CORE](/LibraryVdidCore.md)
