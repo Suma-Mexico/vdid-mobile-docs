@@ -8,5 +8,5 @@ Documentación de las librerías del SDK y componentes de autocaptura para aplic
 
 Librerias diseñada para aplicaciones nativas Android
 
-- [Librería vdid_core](/LibraryVdidCore.md)
-- [Librería vdid_sdk_android](/LibraryVdidSdkAndroid.md)
+- [Librería vdid_core](/android/LibraryVdidCore.md)
+- [Librería vdid_sdk_android](/android/LibraryVdidSdkAndroid.md)
