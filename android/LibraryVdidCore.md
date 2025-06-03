@@ -1,8 +1,10 @@
-# Librería VDID_CORE - v1.0.0
+# Librería vdid_core - v1.0.0
 
 📌[Repositorio Maven de la librería](https://central.sonatype.com/artifact/com.sumamexico/vdid_core/1.0.0)
 
 ## Introducción
+
+![Maven Central Version](https://img.shields.io/maven-central/v/com.sumamexico/vdid_core?versionPrefix=1.0.0&style=plastic&color=3A59D1)
 
 Es una librería diseñada para aplicaciones nativas Android que permite integrar componentes de autocaptura de documentos y rostro. Esta solución ha sido desarrollada para facilitar su integración, ofreciendo funciones clave para gestionar el flujo de captura y procesamiento de imágenes de forma eficiente.
 
