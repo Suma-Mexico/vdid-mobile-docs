@@ -1,12 +1,10 @@
-# Librería vdid_sdk_android - v1.0.0
+# Librería vdid_sdk_android
 
 📌[Repositorio Maven de la librería](https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/1.0.0)
 
 ## Introducción
 
-![Maven Central Version](https://img.shields.io/maven-central/v/com.sumamexico/vdid_sdk_android?versionPrefix=1.0.0&style=plastic&color=3A59D1)
-
-Es una librería diseñada para aplicaciones nativas Android que proporciona un entorno completo con pantallas y lógica integrada para realizar una verificación de identidad. Implementado los [componentes de autocaptura de documentos y rostro](/LibraryVdidCore.md). Esta solución ha sido desarrollada con el objetivo de facilitar su integración, ofreciendo un ambiente completo para el procesar verificaciones de forma eficiente.
+Es una librería diseñada para aplicaciones nativas Android que proporciona un entorno completo con pantallas y lógica integrada para realizar una verificación de identidad. Implementado los [componentes de autocaptura de documentos y rostro](/android/LibraryVdidCore.md). Esta solución ha sido desarrollada con el objetivo de facilitar su integración, ofreciendo un ambiente completo para el procesar verificaciones de forma eficiente.
 
 No es un SDK personalizable. Se requiere un token de autorización, generado mediante la API de verificación disponible en [Login - Postman](https://documenter.getpostman.com/view/13807324/UVXgNJ4f#e3cb81e5-ffb1-4bca-8e06-351071e749d8)
 
