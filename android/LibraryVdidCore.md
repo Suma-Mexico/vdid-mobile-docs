@@ -1,6 +1,8 @@
-# Librería vdid_core
+# Librería vdid_core - v1.0.0
 
-📌[Repositorio Maven de la librería](https://central.sonatype.com/artifact/com.sumamexico/vdid_core/1.0.0)
+Repositorio Maven de la librería
+
+<a href="https://central.sonatype.com/artifact/com.sumamexico/vdid_core/1.0.0" target="_blank"><img src="https://img.shields.io/maven-central/v/com.sumamexico/vdid_core?versionPrefix=1.0.0&style=plastic&label=vdid_core&color=7F55B1" alt="VDID_CORE Version" /></a>
 
 ## Introducción
 

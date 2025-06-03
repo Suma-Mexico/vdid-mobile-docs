@@ -1,6 +1,8 @@
-# Librería vdid_sdk_android
+# Librería vdid_sdk_android - v1.0.0
 
-📌[Repositorio Maven de la librería](https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/1.0.0)
+Repositorio Maven de la librería
+
+<a href="https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/1.0.0" target="_blank"><img src="https://img.shields.io/maven-central/v/com.sumamexico/vdid_sdk_android?versionPrefix=1.0.0&style=plastic&label=vdid_sdk_android&color=3A59D1" alt="VDID_SDK_ANDROID Version" /></a>
 
 ## Introducción
 
