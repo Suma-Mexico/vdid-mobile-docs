@@ -1,5 +1,4 @@
-<p align="center">V1.0.0</p>
-<p align="center" style="font-size: 2em; font-weight: bold; margin-top: -20px">Librería vdid_core</p>
+# Librería vdid_core - V1.0.0
 
 <a href="https://central.sonatype.com/artifact/com.sumamexico/vdid_core/1.0.0" target="_blank"><img src="https://img.shields.io/maven-central/v/com.sumamexico/vdid_core?versionPrefix=1.0.0&style=plastic&label=vdid_core&color=7F55B1" alt="VDID_CORE Version" /></a>
 

@@ -1,5 +1,4 @@
-<p align="center">V1.0.0</p>
-<p align="center" style="font-size: 2em; font-weight: bold; margin-top: -20px">Librería vdid_sdk_android</p>
+# Librería vdid_sdk_android - V1.0.0
 
 <a href="https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/1.0.0" target="_blank"><img src="https://img.shields.io/maven-central/v/com.sumamexico/vdid_sdk_android?versionPrefix=1.0.0&style=plastic&label=vdid_sdk_android&color=3A59D1" alt="VDID_SDK_ANDROID Version" /></a>
 
