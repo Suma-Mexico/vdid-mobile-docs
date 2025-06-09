@@ -1,10 +1,21 @@
-# Librería vdid_core - v1.0.0
-
-Repositorio Maven de la librería
+<p align="center">V1.0.0</p>
+<p align="center" style="font-size: 2em; font-weight: bold; margin-top: -20px">Librería vdid_core</p>
 
 <a href="https://central.sonatype.com/artifact/com.sumamexico/vdid_core/1.0.0" target="_blank"><img src="https://img.shields.io/maven-central/v/com.sumamexico/vdid_core?versionPrefix=1.0.0&style=plastic&label=vdid_core&color=7F55B1" alt="VDID_CORE Version" /></a>
 
-## Introducción
+> [!IMPORTANT]
+>
+> [Repositorio Maven de la librería](https://central.sonatype.com/artifact/com.sumamexico/vdid_core/1.0.0)
+
+**Índice**
+
+- [Introducción](#introduction)
+- [Requerimientos](#requirements)
+- [Integración de la librería](#integration)
+- [Funcionalidades de la Librería](#funcionality)
+- [Licencia](#license)
+
+## <a id="introduction"></a> Introducción
 
 Es una librería diseñada para aplicaciones nativas Android que permite integrar componentes de autocaptura de documentos y rostro. Esta solución ha sido desarrollada para facilitar su integración, ofreciendo funciones clave para gestionar el flujo de captura y procesamiento de imágenes de forma eficiente.
 
@@ -14,7 +25,7 @@ La librería se basa en un fragmento especializado que se controla mediante dive
 >
 > El uso de estos componentes requiere una licencia válida proporcionada por SUMA México. [Ver detalles](#license)
 
-## 📃 Requerimientos
+## <a id="requirements"></a>📃 Requerimientos
 
 ### Entorno de Desarrollo
 
@@ -52,7 +63,7 @@ Asegúrese de agregar el siguiente permiso en el archivo `AndroidManifest.xml` d
  <uses-permission android:name="android.permission.CAMERA"/>
 ```
 
-## 🔮 Integración de la librería
+## <a id="integration"></a>🔮 Integración de la librería
 
 La librería proporciona un fragmento independiente que puede integrarse en una actividad para gestionar la autocaptura de documentos o rostro, según la funcionalidad deseada.
 
@@ -181,7 +192,7 @@ class MainActivity : AppCompatActivity(), OnCaptureListener {
 > - Asegúrate de tener los permisos necesarios (cámara) gestionados antes de iniciar el fragmento.
 > - La librería maneja internamente la lógica de autocaptura y prueba de vida, devolviendo la imagen en formato ByteArray.
 
-## ⚙ Funcionalidades de la Librería
+## <a id="funcionality"></a>⚙ Funcionalidades de la Librería
 
 Las siguientes funciones están disponibles en ambos componentes (documento y rostro) y conservan el mismo comportamiento en cada caso.
 

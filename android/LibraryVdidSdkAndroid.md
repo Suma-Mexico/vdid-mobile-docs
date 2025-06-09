@@ -1,10 +1,22 @@
-# Librería vdid_sdk_android - v1.0.0
-
-Repositorio Maven de la librería
+<p align="center">V1.0.0</p>
+<p align="center" style="font-size: 2em; font-weight: bold; margin-top: -20px">Librería vdid_sdk_android</p>
 
 <a href="https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/1.0.0" target="_blank"><img src="https://img.shields.io/maven-central/v/com.sumamexico/vdid_sdk_android?versionPrefix=1.0.0&style=plastic&label=vdid_sdk_android&color=3A59D1" alt="VDID_SDK_ANDROID Version" /></a>
 
-## Introducción
+> [!IMPORTANT]
+>
+> [Repositorio Maven de la librería](https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/1.0.0)
+
+**Índice**
+
+- [Introducción](#introduction)
+- [Requerimientos](#requirements)
+- [Integración de la librería](#integration)
+- [Funcionalidades de la Librería](#funcionality)
+- [Licencia](#license)
+- [Consideraciones adicionales](#conclusions)
+
+## <a id="introduction"></a> Introducción
 
 Es una librería diseñada para aplicaciones nativas Android que proporciona un entorno completo con pantallas y lógica integrada para realizar una verificación de identidad. Implementado los [componentes de autocaptura de documentos y rostro](/android/LibraryVdidCore.md). Esta solución ha sido desarrollada con el objetivo de facilitar su integración, ofreciendo un ambiente completo para el procesar verificaciones de forma eficiente.
 
@@ -14,7 +26,7 @@ No es un SDK personalizable. Se requiere un token de autorización, generado med
 >
 > El uso de esta librería requiere una licencia válida proporcionada por SUMA México. [Ver detalles](#license)
 
-## 📃 Requerimientos
+## <a id="requirements"></a>📃 Requerimientos
 
 ### Entorno de Desarrollo
 
@@ -53,7 +65,7 @@ Asegúrese de agregar el siguiente permiso en el archivo `AndroidManifest.xml` d
  <uses-permission android:name="android.permission.CAMERA"/>
 ```
 
-## 🔮 Integración de la librería
+## <a id="integration"></a>🔮 Integración de la librería
 
 ### Integración de la librería SDK con Jetpack Compose según versión de Kotlin
 
@@ -239,7 +251,7 @@ class MainActivity : ComponentActivity() {
 }
 ```
 
-## ⚙ Funcionalidades de la Librería
+## <a id="funcionality"></a>⚙ Funcionalidades de la Librería
 
 **1. Proceso de Verificación**
 
@@ -326,7 +338,7 @@ app/
 >
 > Si la licencia no está correctamente colocada en esta ubicación, la librería **NO funcionará**.
 
-## 🚨 Consideraciones adicionales
+## <a id="conclusions"></a>🚨 Consideraciones adicionales
 
 - El SDK no es personalizable visualmente.
 - Es obligatorio integrar Jetpack Compose y Hilt.
