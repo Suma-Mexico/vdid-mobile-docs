@@ -1,10 +1,10 @@
-# Librería vdid_sdk_android - V1.0.0
+# Librería vdid_sdk_android - V2.0.0
 
-<a href="https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/1.0.0" target="_blank"><img src="https://img.shields.io/maven-central/v/com.sumamexico/vdid_sdk_android?versionPrefix=1.0.0&style=plastic&label=vdid_sdk_android&color=3A59D1" alt="VDID_SDK_ANDROID Version" /></a>
+<a href="https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/2.0.0" target="_blank"><img src="https://img.shields.io/maven-central/v/com.sumamexico/vdid_sdk_android?strategy=highestVersion&style=plastic&label=vdid_sdk_android&color=3A59D1" alt="VDID_SDK_ANDROID Version" /></a>
 
 > [!IMPORTANT]
 >
-> [Repositorio Maven de la librería](https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/1.0.0)
+> [Repositorio Maven de la librería](https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/2.0.0)
 
 **Índice**
 
@@ -14,6 +14,7 @@
 - [Funcionalidades de la Librería](#funcionality)
 - [Licencia](#license)
 - [Consideraciones adicionales](#conclusions)
+- [Registro de cambios](#changelog)
 
 ## <a id="introduction"></a> Introducción
 
@@ -31,8 +32,8 @@ No es un SDK personalizable. Se requiere un token de autorización, generado med
 
 Para integrar la librería en una aplicación Android, se deben cumplir los siguientes requisitos:
 
-- **Mínimo nivel de API:** 21 (Android 5.0, Lollipop).
-- **Versión recomendada del SDK:** 35.
+- **Mínimo nivel de API:** 24 (Android 7.0, Nougat).
+- **Versión recomendada del SDK:** 35 (para compatibilidad total con las funciones expuestas y el soporte obligatorio de page size de 16 KB).
 - **Compatibilidad:** Kotlin 1.9 o superior.
 - **Librerias obligatorias:** Jetpack Compose y Hilt
 
@@ -62,6 +63,7 @@ Asegúrese de agregar el siguiente permiso en el archivo `AndroidManifest.xml` d
 
 ```kotlin
  <uses-permission android:name="android.permission.CAMERA"/>
+ <uses-permission android:name="android.permission.INTERNET" />
 ```
 
 ## <a id="integration"></a>🔮 Integración de la librería
@@ -103,7 +105,7 @@ plugins {
 [versions]
 kotlin = "2.0.0"
 agp = "8.8.2"
-vdidSdk = "1.0.0"
+vdidSdk = "2.0.0"
 activityCompose = "1.10.1"
 hilt-android = "2.51.1"
 
@@ -151,7 +153,7 @@ plugins {
 [versions]
 kotlin = "1.9.23"
 agp = "8.8.2"
-vdidSdk = "1.0.0"
+vdidSdk = "2.0.0"
 activityCompose = "1.10.1"
 hilt-android = "2.51.1"
 
@@ -186,7 +188,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.sample_sdk_android"
-        minSdk = 21
+        minSdk = 24
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -343,3 +345,14 @@ app/
 - Es obligatorio integrar Jetpack Compose y Hilt.
 - El `tokenJwt` debe generarse a través de la API documentada en [Postman](https://documenter.getpostman.com/view/13807324/UVXgNJ4f#e3cb81e5-ffb1-4bca-8e06-351071e749d8).
 - No es necesario crear pantallas propias. El SDK ya contiene toda la experiencia integrada.
+
+## <a id="changelog"></a>Registro de cambios
+
+### 2.0.0 - 13/11/2025
+
+#### Cambios
+
+- Nivel mínimo de API de Android a 24.
+- Compatibilidad con páginas de 16 KB.
+- Reducción del retraso durante la finalización de la captura.
+- Verificación de licencia mejorada.
