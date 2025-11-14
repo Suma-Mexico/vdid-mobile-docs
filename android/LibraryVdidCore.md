@@ -1,10 +1,10 @@
-# Librería vdid_core - V1.0.0
+# Librería vdid_core - V2.0.0
 
-<a href="https://central.sonatype.com/artifact/com.sumamexico/vdid_core/1.0.0" target="_blank"><img src="https://img.shields.io/maven-central/v/com.sumamexico/vdid_core?versionPrefix=1.0.0&style=plastic&label=vdid_core&color=7F55B1" alt="VDID_CORE Version" /></a>
+<a href="https://central.sonatype.com/artifact/com.sumamexico/vdid_core/2.0.0" target="_blank"><img src="https://img.shields.io/maven-central/v/com.sumamexico/vdid_core?strategy=highestVersion&style=plastic&label=vdid_core&color=7F55B1" alt="VDID_CORE Version" /></a>
 
 > [!IMPORTANT]
 >
-> [Repositorio Maven de la librería](https://central.sonatype.com/artifact/com.sumamexico/vdid_core/1.0.0)
+> [Repositorio Maven de la librería](https://central.sonatype.com/artifact/com.sumamexico/vdid_core/2.0.0)
 
 **Índice**
 
@@ -13,6 +13,7 @@
 - [Integración de la librería](#integration)
 - [Funcionalidades de la Librería](#funcionality)
 - [Licencia](#license)
+- [Registro de cambios](#changelog)
 
 ## <a id="introduction"></a> Introducción
 
@@ -30,8 +31,8 @@ La librería se basa en un fragmento especializado que se controla mediante dive
 
 Para integrar la librería en una aplicación Android, se deben cumplir los siguientes requisitos:
 
-- **Mínimo nivel de API:** 21 (Android 5.0, Lollipop).
-- **Versión recomendada del SDK:** 35 (para compatibilidad total con las funciones expuestas).
+- **Mínimo nivel de API:** 24 (Android 7.0, Nougat).
+- **Versión recomendada del SDK:** 35 (para compatibilidad total con las funciones expuestas y el soporte obligatorio de page size de 16 KB).
 - **Compatibilidad:** Kotlin 1.8 o superior y Java 8.
 
 ### Dependencias Externas
@@ -60,6 +61,7 @@ Asegúrese de agregar el siguiente permiso en el archivo `AndroidManifest.xml` d
 
 ```kotlin
  <uses-permission android:name="android.permission.CAMERA"/>
+ <uses-permission android:name="android.permission.INTERNET" />
 ```
 
 ## <a id="integration"></a>🔮 Integración de la librería
@@ -320,3 +322,22 @@ app/
 > [!NOTE]
 >
 > Si la licencia no está correctamente colocada en esta ubicación, la librería **NO funcionará**.
+
+## <a id="changelog"></a>Registro de cambios
+
+### 2.0.0 - 13/11/2025
+
+#### Cambios
+
+- Nivel mínimo de API de Android a 24.
+- Compatibilidad con páginas de 16 KB.
+- Reducción del retraso durante la finalización de la captura.
+- Verificación de licencia mejorada.
+
+#### Correcciones
+
+- Problema de estabilidad que se producía cuando el fragmento se destruía antes de que se creara su vista.
+- Se ha mejorado la estabilidad de la inicialización de la cámara mediante el tratamiento de posibles excepciones.
+- Componente Document Auto Capture: problema de estabilidad que se producía cuando un usuario no concedía permiso para usar la cámara y se destruía el fragmento.
+- Problema de estabilidad que se producía al personalizar el estilo de las instrucciones.
+- Problema de estabilidad que afecta a los dispositivos Android 5 y Android 6.
