@@ -1,10 +1,10 @@
-# Librería vdid_sdk_android - V2.0.0
+# Librería vdid_sdk_android - V2.0.2
 
-<a href="https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/2.0.0" target="_blank"><img src="https://img.shields.io/maven-central/v/com.sumamexico/vdid_sdk_android?strategy=highestVersion&style=plastic&label=vdid_sdk_android&color=3A59D1" alt="VDID_SDK_ANDROID Version" /></a>
+<a href="https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/2.0.2" target="_blank"><img src="https://img.shields.io/maven-central/v/com.sumamexico/vdid_sdk_android?strategy=highestVersion&style=plastic&label=vdid_sdk_android&color=3A59D1" alt="VDID_SDK_ANDROID Version" /></a>
 
 > [!IMPORTANT]
 >
-> [Repositorio Maven de la librería](https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/2.0.0)
+> [Repositorio Maven de la librería](https://central.sonatype.com/artifact/com.sumamexico/vdid_sdk_android/2.0.2)
 
 **Índice**
 
@@ -105,7 +105,7 @@ plugins {
 [versions]
 kotlin = "2.0.0"
 agp = "8.8.2"
-vdidSdk = "2.0.0"
+vdidSdk = "2.0.2"
 activityCompose = "1.10.1"
 hilt-android = "2.51.1"
 
@@ -153,7 +153,7 @@ plugins {
 [versions]
 kotlin = "1.9.23"
 agp = "8.8.2"
-vdidSdk = "2.0.0"
+vdidSdk = "2.0.2"
 activityCompose = "1.10.1"
 hilt-android = "2.51.1"
 
@@ -347,6 +347,26 @@ app/
 - No es necesario crear pantallas propias. El SDK ya contiene toda la experiencia integrada.
 
 ## <a id="changelog"></a>Registro de cambios
+
+### 2.0.2 - 29/12/2025
+
+#### Cambios
+
+- Actualización visual general del SDK.
+- Integración de nueva familia tipográfica Inter / Plus Jakarta para mejorar legibilidad y consistencia visual.
+- Ajustes en pesos de fuente y jerarquía tipográfica.
+- Actualización de estilos.
+- Actualización del icono de ayuda y elementos gráficos asociados.
+- Mejoras en el diseño de pantallas de instrucciones y tips.
+
+#### Correcciones
+
+- Corrección de ejecuciones múltiples del proceso de verificación causadas por taps repetidos.
+- Bloqueo de acciones duplicadas durante el estado de carga (Loading).
+- Deshabilitación controlada de botones según el estado del flujo.
+- Corrección de comportamientos inconsistentes en dispositivos de bajo rendimiento.
+- Mejor manejo de layouts con scroll en pantallas pequeñas.
+- Control explícito de estado (Loading, Success, Error) para evitar ejecuciones concurrentes.
 
 ### 2.0.0 - 13/11/2025
 
