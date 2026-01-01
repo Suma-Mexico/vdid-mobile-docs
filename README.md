@@ -14,8 +14,8 @@ Librerias diseñada para aplicaciones nativas Android
 - [Librería vdid_core](/android/LibraryVdidCore.md)
 - [Librería vdid_sdk_android](/android/LibraryVdidSdkAndroid.md)
 
-<p align="center">
+<!-- <p align="center">
   <img src="./assets/ios.webp" width="90" alt="iOS Logo" />
 </p>
 
-Librerias diseñada para aplicaciones nativas iOS
+Librerias diseñada para aplicaciones nativas iOS -->
